@@ -1,0 +1,10 @@
+salary=float(input("enter employee salary"))
+service=int(input("enter years of service"))
+if service<2:
+    print("no bonus")
+elif service<=5:
+    bonus=10/100*salary
+    print(bonus)
+elif service>5:
+    bonus=20/100*salary
+    print(bonus)
