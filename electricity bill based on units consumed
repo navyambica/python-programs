@@ -1,0 +1,12 @@
+units=int(input("enter units"))
+if units<=100:
+    print("free")
+elif units>=101 and units<=200:
+    bill=units*2
+    print(bill)
+elif units>=201 and units<=300:
+    bill=units*3
+    print(bill)
+elif units>300:
+    bill=units*5
+    print(bill)
