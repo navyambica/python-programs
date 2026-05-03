@@ -1,0 +1,5 @@
+marks=int(input("enter student marks"))
+if marks>=35:
+    print("passed")
+else:
+    print("failed")
