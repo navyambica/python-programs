@@ -1,0 +1,15 @@
+n1=int(input())
+n2=int(input())
+operation=input()
+if operation=="+":
+   add=n1+n2
+   print(add)
+elif operation=="-":
+   sub=n1-n2
+   print(sub)
+elif operation=="*":
+   mul=n1*n2
+   print(mul)
+elif operation=="/":
+   div=n1/n2
+   print(div)
