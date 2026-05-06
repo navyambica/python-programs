@@ -1,0 +1,15 @@
+s=input()
+non_re=""
+found=False
+for i in s:
+    count=0
+    if i not in non_re:
+        for j in s:
+            if i==j:
+                count=count+1
+        non_re=non_re+i
+    if count==1:
+        print(i)
+        found=True
+if found!=True:
+    print("there is no unique values")
