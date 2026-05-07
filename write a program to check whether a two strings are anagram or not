@@ -1,0 +1,14 @@
+s=input()
+s2=input()
+s_=[]
+s2_=[]
+for i in s:
+    s_.append(i)
+for j in s2:
+    s2_.append(j)
+s_.sort()
+s2_.sort()
+if s_==s2_:
+    print("anagram")
+else:
+    print("not a anagram")
